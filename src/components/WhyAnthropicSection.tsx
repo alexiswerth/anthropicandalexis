@@ -31,14 +31,14 @@ const item = {
 
 const WhyAnthropicSection = () => {
   return (
-    <section id="why-anthropic" className="py-24 bg-secondary/50">
+    <section id="why-anthropic" className="py-16 bg-secondary/50">
       <div className="container max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-16"
+          className="text-center mb-10"
         >
           <h2 className="section-heading">Why I'm Your Frontier Counsel</h2>
           <div className="accent-line mx-auto mt-4" />
@@ -59,7 +59,7 @@ const WhyAnthropicSection = () => {
                   <div className="p-2.5 rounded-xl bg-primary/10 text-primary shrink-0">
                     <fi.icon className="w-5 h-5" />
                   </div>
-                  <p className="text-xs font-medium uppercase tracking-wider text-primary/70 font-body">
+                  <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground font-body">
                     What Anthropic Needs
                   </p>
                 </div>
@@ -68,8 +68,8 @@ const WhyAnthropicSection = () => {
                 </p>
                 <div className="w-full h-px bg-border mb-5" />
                 <div className="flex items-center gap-2 mb-3">
-                  <CheckCircle2 className="w-4 h-4 text-primary/70" />
-                  <p className="text-xs font-medium uppercase tracking-wider text-primary/70 font-body">
+                  <CheckCircle2 className="w-4 h-4 text-muted-foreground" />
+                  <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground font-body">
                     What I Bring
                   </p>
                 </div>
