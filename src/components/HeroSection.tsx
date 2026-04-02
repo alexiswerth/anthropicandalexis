@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import headshot from "@/assets/alexis-headshot.jpg";
-import { Mail, Phone, MapPin, Scale, Download } from "lucide-react";
+import { Mail, Phone, MapPin, Scale, Download, Globe } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -82,7 +82,7 @@ const HeroSection = () => {
             </span>
             <span className="hidden sm:inline text-border">|</span>
             <span className="flex items-center gap-1.5">
-              🌐 Region Lead, Counselwell (NYC)
+              <Globe className="w-4 h-4" /> Region Lead, Counselwell (NYC)
             </span>
           </motion.div>
 
