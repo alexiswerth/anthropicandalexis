@@ -9,12 +9,6 @@ const fitItems = [
     tags: ["AI Compliance", "Privacy", "Data Governance"],
   },
   {
-    icon: Users,
-    jobReq: "Bridge technical and legal functions in a fast-moving startup",
-    myFit: "Translates complex regulatory requirements into practical, scalable guidance for Product, GRC, GTM, and Engineering teams. Drata Legal's resident AI architect — deploying AI tools across the legal function. Reduced processing time 30% at Snappy via workflow automation.",
-    tags: ["Cross-functional", "AI Tools", "Legal Ops"],
-  },
-  {
     icon: Shield,
     jobReq: "8+ years in-house with deep AI and technology law expertise",
     myFit: "8+ years spanning in-house roles at Drata, Snappy, Mimecast, and Prometric. Handles majority of commercial deal flow — DPAs, MSAs, NDAs. JD from CUNY, BS from Cornell ILR. NY & NJ bar admissions.",
