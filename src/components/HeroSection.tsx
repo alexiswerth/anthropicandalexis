@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import headshot from "@/assets/alexis-headshot.jpg";
-import { Mail, Phone, MapPin, Scale } from "lucide-react";
+import { Mail, Phone, MapPin, Scale, Download } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -86,13 +86,20 @@ const HeroSection = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
-            className="mt-12"
+            className="mt-12 flex flex-wrap items-center justify-center gap-4"
           >
             <a
               href="#why-anthropic"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-accent text-accent-foreground font-body font-medium text-sm hover:opacity-90 transition-opacity shadow-lg shadow-accent/20"
             >
               Why I'm Your Frontier Counsel ↓
+            </a>
+            <a
+              href="/Alexis_Werth_Resume.pdf"
+              download
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-primary/20 text-primary font-body font-medium text-sm hover:bg-primary/5 transition-colors"
+            >
+              <Download className="w-4 h-4" /> Download Resume
             </a>
           </motion.div>
         </div>
