@@ -101,7 +101,7 @@ const HeroSection = () => {
             <a
               href="/Alexis_Werth_Resume.pdf"
               download
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-primary/20 text-primary font-body font-medium text-sm hover:bg-primary/5 transition-colors min-w-[240px]"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-primary/20 text-primary font-body font-medium text-sm hover:bg-primary/5 transition-colors w-[260px]"
             >
               <Download className="w-4 h-4" /> Download Resume
             </a>
