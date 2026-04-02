@@ -29,7 +29,7 @@ const EducationSection = () => {
               <div>
                 <h3 className="font-heading font-semibold text-lg text-primary">Juris Doctor</h3>
                 <p className="text-sm text-muted-foreground font-body mt-1">
-                  City University of New York — New York, NY
+                  City University of New York, New York, NY
                 </p>
               </div>
             </div>
