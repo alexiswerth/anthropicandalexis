@@ -30,15 +30,14 @@ const HeroSection = () => {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="mb-8"
           >
-            <div className="relative w-40 md:w-48">
-              {/* Golden glow behind the arch */}
-              <div className="absolute inset-0 blur-2xl opacity-20 bg-accent rounded-full scale-110" />
-              {/* Arch border */}
+            <div className="relative w-44 h-44 md:w-52 md:h-52">
+              {/* Golden glow */}
+              <div className="absolute inset-0 blur-2xl opacity-15 bg-accent rounded-full scale-110" />
+              {/* Leaf/petal shape */}
               <div
-                className="relative border border-accent/30 overflow-hidden shadow-2xl shadow-black/30"
+                className="relative w-full h-full overflow-hidden shadow-2xl shadow-black/30 border border-accent/25"
                 style={{
-                  aspectRatio: '200/260',
-                  borderRadius: '45% 45% 8% 8% / 35% 35% 4% 4%',
+                  borderRadius: '60% 40% 50% 50% / 50% 60% 40% 50%',
                 }}
               >
                 <img src={headshot} alt="Alexis Werth" className="w-full h-full object-cover" />
