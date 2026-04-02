@@ -31,30 +31,18 @@ const HeroSection = () => {
             className="mb-8"
           >
             <div className="relative w-40 md:w-48">
-              {/* Subtle golden glow behind the arch */}
+              {/* Golden glow behind the arch */}
               <div className="absolute inset-0 blur-2xl opacity-20 bg-accent rounded-full scale-110" />
-              <svg viewBox="0 0 200 260" className="w-full h-auto drop-shadow-2xl relative z-10">
-                <defs>
-                  <clipPath id="archClip">
-                    <path d="M100,8 C145,8 180,40 180,85 L180,230 C180,245 168,252 155,252 L45,252 C32,252 20,245 20,230 L20,85 C20,40 55,8 100,8 Z" />
-                  </clipPath>
-                </defs>
-                {/* Border/frame */}
-                <path
-                  d="M100,4 C148,4 184,38 184,87 L184,232 C184,248 170,256 155,256 L45,256 C30,256 16,248 16,232 L16,87 C16,38 52,4 100,4 Z"
-                  fill="none"
-                  stroke="hsl(var(--accent))"
-                  strokeWidth="1.5"
-                  opacity="0.4"
-                />
-                <image
-                  href={headshot}
-                  x="0" y="0"
-                  width="200" height="260"
-                  clipPath="url(#archClip)"
-                  preserveAspectRatio="xMidYMid slice"
-                />
-              </svg>
+              {/* Arch border */}
+              <div
+                className="relative border border-accent/30 overflow-hidden shadow-2xl shadow-black/30"
+                style={{
+                  aspectRatio: '200/260',
+                  borderRadius: '45% 45% 8% 8% / 35% 35% 4% 4%',
+                }}
+              >
+                <img src={headshot} alt="Alexis Werth" className="w-full h-full object-cover" />
+              </div>
             </div>
           </motion.div>
 
