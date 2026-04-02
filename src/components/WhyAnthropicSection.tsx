@@ -40,7 +40,7 @@ const WhyAnthropicSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-10"
         >
-          <h2 className="section-heading">Why I'm Your Frontier Counsel</h2>
+          <h2 className="section-heading">Why I'm Your Next Frontier Counsel</h2>
           <div className="accent-line mx-auto mt-4" />
         </motion.div>
 
