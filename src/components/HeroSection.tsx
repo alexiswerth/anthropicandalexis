@@ -80,6 +80,10 @@ const HeroSection = () => {
             <span className="flex items-center gap-1.5">
               <Scale className="w-4 h-4" /> NY & NJ Bar
             </span>
+            <span className="hidden sm:inline text-border">|</span>
+            <span className="flex items-center gap-1.5">
+              🌐 Region Lead, Counselwell (NYC)
+            </span>
           </motion.div>
 
           <motion.div
