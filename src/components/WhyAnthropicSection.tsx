@@ -31,7 +31,7 @@ const item = {
 
 const WhyAnthropicSection = () => {
   return (
-    <section id="why-anthropic" className="py-24 bg-secondary/50">
+    <section id="why-anthropic" className="py-16 bg-secondary/50">
       <div className="container max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
