@@ -94,7 +94,7 @@ const HeroSection = () => {
           >
             <a
               href="#why-anthropic"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-accent text-accent-foreground font-body font-medium text-sm hover:opacity-90 transition-opacity shadow-lg shadow-accent/20"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-accent text-accent-foreground font-body font-medium text-sm hover:opacity-90 transition-opacity shadow-lg shadow-accent/20 min-w-[240px]"
             >
               Why I'm Your Frontier Counsel ↓
             </a>
