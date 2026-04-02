@@ -30,8 +30,19 @@ const HeroSection = () => {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="mb-8"
           >
-            <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden shadow-2xl shadow-black/30">
-              <img src={headshot} alt="Alexis Werth" className="w-full h-full object-cover" />
+            <div className="relative w-40 md:w-48">
+              {/* Golden glow behind the arch */}
+              <div className="absolute inset-0 blur-2xl opacity-20 bg-accent rounded-full scale-110" />
+              {/* Arch border */}
+              <div
+                className="relative border border-accent/30 overflow-hidden shadow-2xl shadow-black/30"
+                style={{
+                  aspectRatio: '200/260',
+                  borderRadius: '45% 45% 8% 8% / 35% 35% 4% 4%',
+                }}
+              >
+                <img src={headshot} alt="Alexis Werth" className="w-full h-full object-cover" />
+              </div>
             </div>
           </motion.div>
 
