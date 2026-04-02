@@ -38,7 +38,7 @@ const WhyAnthropicSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-16"
+          className="text-center mb-10"
         >
           <h2 className="section-heading">Why I'm Your Frontier Counsel</h2>
           <div className="accent-line mx-auto mt-4" />
