@@ -50,7 +50,7 @@ const EducationSection = () => {
                 <h3 className="font-heading font-semibold text-lg text-primary">Bachelor of Science</h3>
                 <p className="text-accent font-body text-sm font-medium mt-0.5">Industrial & Labor Relations</p>
                 <p className="text-sm text-muted-foreground font-body mt-1">
-                  Cornell University — Ithaca, NY
+                  Cornell University, Ithaca, NY
                 </p>
               </div>
             </div>
