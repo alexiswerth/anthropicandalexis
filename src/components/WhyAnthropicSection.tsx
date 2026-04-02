@@ -5,13 +5,13 @@ const fitItems = [
   {
     icon: Brain,
     jobReq: "Advise on AI data usage, privacy, and cross-border compliance",
-    myFit: "Designed Drata's privacy program end-to-end — AI compliance, DataGrail workflows, cookie/pixel governance. Primary point of contact for all privacy requests, partnering with Product to embed legal at the development level.",
+    myFit: "Designed Drata's privacy program end-to-end: AI compliance, DataGrail workflows, cookie/pixel governance. Primary point of contact for all privacy requests, partnering with Product to embed legal at the development level.",
     tags: ["AI Compliance", "Privacy", "Data Governance"],
   },
   {
     icon: Shield,
     jobReq: "8+ years in-house with deep AI and technology law expertise",
-    myFit: "8+ years spanning in-house roles at Drata, Snappy, Mimecast, and Prometric. Handles majority of commercial deal flow — DPAs, MSAs, NDAs. JD from CUNY, BS from Cornell ILR. NY & NJ bar admissions.",
+    myFit: "8+ years spanning in-house roles at Drata, Snappy, Mimecast, and Prometric. Handles majority of commercial deal flow (DPAs, MSAs, NDAs). JD from CUNY, BS from Cornell ILR. NY & NJ bar admissions.",
     tags: ["8+ Years", "In-house", "Commercial"],
   },
 ];
@@ -43,7 +43,7 @@ const WhyAnthropicSection = () => {
           <h2 className="section-heading">Why I'm Your Frontier Counsel</h2>
           <div className="accent-line mx-auto mt-4" />
           <p className="mt-6 text-muted-foreground font-body max-w-2xl mx-auto">
-            A direct mapping of Anthropic's requirements to my experience — 
+            A direct mapping of Anthropic's requirements to my experience:
             every qualification, addressed.
           </p>
         </motion.div>
