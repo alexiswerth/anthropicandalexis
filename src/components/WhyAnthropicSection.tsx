@@ -42,10 +42,6 @@ const WhyAnthropicSection = () => {
         >
           <h2 className="section-heading">Why I'm Your Frontier Counsel</h2>
           <div className="accent-line mx-auto mt-4" />
-          <p className="mt-6 text-muted-foreground font-body max-w-2xl mx-auto">
-            A direct mapping of Anthropic's requirements to my experience:
-            every qualification, addressed.
-          </p>
         </motion.div>
 
         <motion.div
