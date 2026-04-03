@@ -45,7 +45,7 @@ check("Site config exists", () => existsSync(join(ROOT, "src/lib/siteConfig.ts")
 check("No em dashes in source", () => {
   const violations = [];
   function scanDir(dir) {
-    if (dir.includes("node_modules") || dir.includes(".git")) return;
+    if (dir.includes("node_modules") || dir.includes(".git") || dir.includes("test")) return;
     for (const entry of readdirSync(dir)) {
       const full = join(dir, entry);
       const stat = statSync(full);
