@@ -101,7 +101,7 @@ const HeroSection = () => {
             <p className="text-lg md:text-xl font-heading italic leading-relaxed font-semibold bg-[length:200%_100%] bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(234,179,8,0.3)] animate-shimmer"
               style={{ backgroundImage: 'linear-gradient(90deg, hsl(var(--accent)), #fde68a, hsl(var(--accent)), #fde68a, hsl(var(--accent)))' }}
             >
-              \u2726 {tagline} \u2726
+              ✦ {tagline} ✦
             </p>
             <p className="mt-4 text-base text-muted-foreground leading-relaxed font-body">
               {bio}
