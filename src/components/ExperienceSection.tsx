@@ -74,10 +74,10 @@ const ExperienceCard = ({ exp, index }: { exp: Experience; index: number }) => {
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: -20 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
+      initial={{ opacity: 0, y: 40, scale: 0.97 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      viewport={{ once: true, margin: "-80px" }}
+      transition={{ duration: 0.6, delay: index * 0.12, ease: "easeOut" }}
       className="relative"
     >
       {/* Timeline line */}
@@ -138,9 +138,10 @@ const ExperienceSection = () => {
     <section id="experience" className="py-24">
       <div className="container max-w-5xl mx-auto px-6">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
           className="mb-16"
         >
           <h2 className="section-heading">Experience</h2>
