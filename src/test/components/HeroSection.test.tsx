@@ -60,7 +60,7 @@ describe("HeroSection", () => {
 
   it("headshot has alt text", () => {
     render(<HeroSection />);
-    expect(screen.getByAlt("Alexis Werth")).toBeInTheDocument();
+    expect(screen.getByAltText("Alexis Werth")).toBeInTheDocument();
   });
 
   it("renders all sparkle elements", () => {
