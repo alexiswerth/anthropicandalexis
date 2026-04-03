@@ -138,9 +138,10 @@ const ExperienceSection = () => {
     <section id="experience" className="py-24">
       <div className="container max-w-5xl mx-auto px-6">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
           className="mb-16"
         >
           <h2 className="section-heading">Experience</h2>
