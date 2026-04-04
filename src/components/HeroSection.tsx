@@ -19,7 +19,7 @@ const HeroSection = () => {
   const { name, suffix, tagline, bio, email, phone, phoneDisplay, location, barAdmissions, community, resumePath, ctaLabel, ctaAnchor } = siteConfig;
 
   return (
-    <section className="relative flex items-center justify-center overflow-hidden">
+    <section aria-label="About Alexis Werth" className="relative flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: `radial-gradient(circle at 1px 1px, hsl(var(--primary)) 1px, transparent 0)`,
         backgroundSize: '40px 40px'

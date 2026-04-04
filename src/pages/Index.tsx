@@ -3,7 +3,7 @@ import ErrorBoundary from "@/components/ErrorBoundary";
 import LazyWhenVisible from "@/components/LazyWhenVisible";
 import { getScrollPosition, setScrollPosition } from "@/lib/persistence";
 import { motion } from "framer-motion";
-import { Heart } from "lucide-react";
+import { Heart, Mail } from "lucide-react";
 
 // Lazy-load heavy sections for better initial load
 const NavBar = lazy(() => import("@/components/NavBar"));
