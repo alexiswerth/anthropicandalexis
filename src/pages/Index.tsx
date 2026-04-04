@@ -3,7 +3,7 @@ import ErrorBoundary from "@/components/ErrorBoundary";
 import LazyWhenVisible from "@/components/LazyWhenVisible";
 import { getScrollPosition, setScrollPosition } from "@/lib/persistence";
 import { motion } from "framer-motion";
-import { Heart } from "lucide-react";
+import { Heart, Mail } from "lucide-react";
 
 // Lazy-load heavy sections for better initial load
 const NavBar = lazy(() => import("@/components/NavBar"));
@@ -35,6 +35,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background relative">
+      <a href="#main-content" className="skip-to-content">
+        Skip to content
+      </a>
+
       <Suspense fallback={null}>
         <ParallaxElements />
       </Suspense>
@@ -45,7 +49,7 @@ const Index = () => {
         </Suspense>
       </ErrorBoundary>
 
-      <main>
+      <main id="main-content">
         <ErrorBoundary section="hero" inline>
           <Suspense fallback={<SectionFallback />}>
             <HeroSection />
@@ -77,8 +81,30 @@ const Index = () => {
         </LazyWhenVisible>
       </main>
 
+      {/* Contact CTA */}
+      <section className="py-16 bg-secondary/50" aria-label="Contact">
+        <div className="container max-w-5xl mx-auto px-6 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="section-heading text-2xl md:text-3xl mb-4">Let's Connect</h2>
+            <p className="text-sm text-muted-foreground font-body mb-6 max-w-md mx-auto">
+              Interested in discussing how I can support your legal team? I'd love to hear from you.
+            </p>
+            <a
+              href="mailto:awerth13@gmail.com"
+              className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full bg-accent text-accent-foreground font-body font-medium text-sm hover:opacity-90 transition-opacity shadow-lg shadow-accent/20"
+            >
+              <Mail className="w-4 h-4" /> Get in Touch
+            </a>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Footer */}
-      <footer className="py-12 text-center">
+      <footer className="py-12 text-center" role="contentinfo">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
