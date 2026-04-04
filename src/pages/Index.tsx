@@ -35,6 +35,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background relative">
+      <a href="#main-content" className="skip-to-content">
+        Skip to content
+      </a>
+
       <Suspense fallback={null}>
         <ParallaxElements />
       </Suspense>
@@ -45,7 +49,7 @@ const Index = () => {
         </Suspense>
       </ErrorBoundary>
 
-      <main>
+      <main id="main-content">
         <ErrorBoundary section="hero" inline>
           <Suspense fallback={<SectionFallback />}>
             <HeroSection />
