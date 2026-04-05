@@ -35,6 +35,8 @@ export interface SiteConfig {
   location: string;
   barAdmissions: string[];
   community: string;
+  githubUrl: string;
+  linkedinUrl: string;
   resumePath: string;
   ctaLabel: string;
   ctaAnchor: string;
