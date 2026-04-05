@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import headshot from "@/assets/alexis-headshot.webp";
 import ImageWithFallback from "@/components/ImageWithFallback";
 import siteConfig from "@/lib/siteConfig";
-import { Mail, Phone, MapPin, Scale, Download, Globe } from "lucide-react";
+import { Mail, Phone, MapPin, Scale, Download, Globe, Github, Linkedin } from "lucide-react";
 
 const sparkles = [
   { emoji: "\u2728", x: -120, y: -15, delay: 0, duration: 3 },
@@ -16,7 +16,7 @@ const sparkles = [
 ];
 
 const HeroSection = () => {
-  const { name, suffix, tagline, bio, email, phone, phoneDisplay, location, barAdmissions, community, resumePath, ctaLabel, ctaAnchor } = siteConfig;
+  const { name, suffix, tagline, bio, email, phone, phoneDisplay, location, barAdmissions, community, githubUrl, linkedinUrl, resumePath, ctaLabel, ctaAnchor } = siteConfig;
 
   return (
     <section aria-label="About Alexis Werth" className="relative flex items-center justify-center overflow-hidden">
@@ -112,27 +112,38 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground font-body"
+            className="mt-8 flex flex-col items-center gap-3 text-sm text-muted-foreground font-body"
           >
-            <a href={`mailto:${email}`} className="flex items-center gap-1.5 hover:text-accent transition-colors">
-              <Mail className="w-4 h-4" /> {email}
-            </a>
-            <span className="hidden sm:inline text-border">|</span>
-            <a href={`tel:${phone}`} className="flex items-center gap-1.5 hover:text-accent transition-colors">
-              <Phone className="w-4 h-4" /> {phoneDisplay}
-            </a>
-            <span className="hidden sm:inline text-border">|</span>
-            <span className="flex items-center gap-1.5">
-              <MapPin className="w-4 h-4" /> {location}
-            </span>
-            <span className="hidden sm:inline text-border">|</span>
-            <span className="flex items-center gap-1.5">
-              <Scale className="w-4 h-4" /> {barAdmissions.join(" & ")} Bar
-            </span>
-            <span className="basis-full h-0 sm:hidden" />
-            <span className="flex items-center gap-1.5">
-              <Globe className="w-4 h-4" /> {community}
-            </span>
+            <div className="flex flex-wrap items-center justify-center gap-4">
+              <a href={`mailto:${email}`} className="flex items-center gap-1.5 hover:text-accent transition-colors">
+                <Mail className="w-4 h-4" /> {email}
+              </a>
+              <span className="hidden sm:inline text-border">|</span>
+              <a href={`tel:${phone}`} className="flex items-center gap-1.5 hover:text-accent transition-colors">
+                <Phone className="w-4 h-4" /> {phoneDisplay}
+              </a>
+              <span className="hidden sm:inline text-border">|</span>
+              <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-accent transition-colors">
+                <Github className="w-4 h-4" /> GitHub
+              </a>
+              <span className="hidden sm:inline text-border">|</span>
+              <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-accent transition-colors">
+                <Linkedin className="w-4 h-4" /> LinkedIn
+              </a>
+            </div>
+            <div className="flex flex-wrap items-center justify-center gap-4">
+              <span className="flex items-center gap-1.5">
+                <MapPin className="w-4 h-4" /> {location}
+              </span>
+              <span className="hidden sm:inline text-border">|</span>
+              <span className="flex items-center gap-1.5">
+                <Scale className="w-4 h-4" /> {barAdmissions.join(" & ")} Bar
+              </span>
+              <span className="hidden sm:inline text-border">|</span>
+              <span className="flex items-center gap-1.5">
+                <Globe className="w-4 h-4" /> {community}
+              </span>
+            </div>
           </motion.div>
 
           <motion.div
