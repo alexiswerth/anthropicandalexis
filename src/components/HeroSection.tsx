@@ -16,7 +16,7 @@ const sparkles = [
 ];
 
 const HeroSection = () => {
-  const { name, suffix, tagline, bio, email, phone, phoneDisplay, location, barAdmissions, community, resumePath, ctaLabel, ctaAnchor } = siteConfig;
+  const { name, suffix, tagline, bio, email, phone, phoneDisplay, location, barAdmissions, community, githubUrl, linkedinUrl, resumePath, ctaLabel, ctaAnchor } = siteConfig;
 
   return (
     <section aria-label="About Alexis Werth" className="relative flex items-center justify-center overflow-hidden">
