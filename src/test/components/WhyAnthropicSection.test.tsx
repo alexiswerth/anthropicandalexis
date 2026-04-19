@@ -12,7 +12,7 @@ import WhyAnthropicSection from "@/components/WhyAnthropicSection";
 describe("WhyAnthropicSection", () => {
   it("renders section heading", () => {
     render(<WhyAnthropicSection />);
-    expect(screen.getByText("Why I'm Your Next Frontier Counsel")).toBeInTheDocument();
+    expect(screen.getByText("Why I'm Your Commercial Counsel")).toBeInTheDocument();
   });
 
   it("renders both fit cards", () => {
