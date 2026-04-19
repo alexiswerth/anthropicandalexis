@@ -177,27 +177,15 @@ const siteConfig: SiteConfig = {
   fitItems: [
     {
       iconName: "Handshake",
-      jobReq: "Draft, review, and negotiate enterprise commercial agreements with focus on GTM/Sales transactions",
-      myFit: "Handles the majority of Drata's commercial deal flow today and drove 50%+ of Snappy's 2024 revenue. Negotiated thousands of MSAs, DPAs, NDAs, order forms, and other SaaS subscription agreements across SaaS, cybersecurity, gifting, media, and assessment platforms.",
+      jobReq: "Own enterprise commercial deal flow alongside GTM",
+      myFit: "Lead the majority of Drata's commercial deals today. Closed work supporting 50%+ of Snappy's 2024 revenue.",
       tags: ["MSAs", "DPAs", "Order Forms", "Enterprise SaaS"],
     },
     {
-      iconName: "Zap",
-      jobReq: "Partner closely with Sales and GTM teams to support deal velocity and provide practical guidance",
-      myFit: "Built the GTM-Legal partnership at Snappy and now Drata: 1:1 Enterprise AE training, Ironclad-Salesforce integration that cut sales request time 30%, elevated negotiation thresholds, and Legal SLAs that let Sales move without waiting on Legal.",
-      tags: ["Sales Enablement", "Deal Velocity", "Ironclad", "Salesforce"],
-    },
-    {
-      iconName: "FileText",
-      jobReq: "Build and maintain commercial legal infrastructure: templates, playbooks, and process improvements that scale GTM",
-      myFit: "Legal ops is core to how I work. Designed Drata's GTM-Legal playbooks, AI-powered intake-to-closed-won workflows, and elevated negotiation thresholds. Built the Ironclad-Salesforce integration at Snappy that cut sales request time 30%, and created customer and vendor templates at Mimecast and Prometric. Operationalizing Legal so commercial teams can move faster.",
-      tags: ["Legal Ops", "Playbooks", "Ironclad", "Workflow Design"],
-    },
-    {
       iconName: "Brain",
-      jobReq: "Curiosity about AI and commitment to responsible AI development, paired with deep privacy fluency",
-      myFit: "Designed Drata's privacy program end-to-end (DataGrail workflows, cookie and pixel governance, AI compliance) and serve as Drata Legal's resident AI architect. Negotiate AI and privacy terms in every commercial deal, embedding the protections enterprise customers expect directly into the product and the contract.",
-      tags: ["Privacy Program", "AI Compliance", "DataGrail", "DPAs"],
+      jobReq: "Pair AI fluency with a real privacy practice",
+      myFit: "Designed Drata's privacy program end-to-end and serve as Legal's AI architect. AI and privacy terms sit in every deal I negotiate.",
+      tags: ["Privacy Program", "AI Compliance", "DataGrail"],
     },
   ],
 
