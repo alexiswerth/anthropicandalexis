@@ -51,7 +51,7 @@ const siteConfig: SiteConfig = {
   name: "Alexis Werth",
   suffix: "Esq.",
   tagline: "Your Next Commercial Counsel, GTM",
-  bio: "Commercial counsel with 8+ years closing the deals that drive revenue. Built my entire career around go-to-market: enterprise SaaS negotiations, AI and data privacy terms, and the legal infrastructure that lets sales teams move fast. Drove 50%+ of Snappy's 2024 revenue, handle the majority of Drata's commercial deal flow, and have negotiated commercial agreements at every stop from Cornell ILR forward.",
+  bio: "Commercial counsel with 10+ years partnering with go-to-market teams to bring deals across the finish line. My career has centered on the work that moves revenue: enterprise SaaS negotiations, thoughtful AI and data privacy terms, and the legal infrastructure that helps sales teams move with confidence. At Drata, I lead the majority of commercial deal flow and shape how Legal shows up for GTM. At Snappy, my work supported more than half of 2024 revenue. Across every role since Cornell ILR, I have built relationships and contracts designed to help businesses grow.",
   email: "awerth13@gmail.com",
   phone: "5163198772",
   phoneDisplay: "516.319.8772",
