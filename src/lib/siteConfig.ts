@@ -78,7 +78,7 @@ const siteConfig: SiteConfig = {
       title: "Senior Corporate Counsel",
       period: "2025 to Present",
       highlights: [
-        "Handles the majority of Drata's commercial deal flow, drafting and negotiating hundreds of enterprise customer agreements including MSAs, DPAs, order forms, and NDAs.",
+        "Handles the majority of Drata's commercial deal flow, drafting and negotiating thousands of enterprise customer agreements including MSAs, DPAs, NDAs, order forms, and other SaaS subscription agreements.",
         "Day-to-day GTM legal partner and second to SVP, Legal in a two-person team: directly supports Sales, Customer Success, and Procurement on deal velocity, escalations, and commercial risk.",
         "Driving a comprehensive revamp of the GTM-Legal process: established elevated negotiation thresholds, built AI-powered legal ops workflows, and evolved playbooks to formalize Legal SLAs.",
         "Designed and implemented Drata's privacy program end-to-end (DataGrail workflows, cookie/pixel governance, AI compliance), embedding the terms commercial customers expect directly into the product.",
@@ -178,7 +178,7 @@ const siteConfig: SiteConfig = {
     {
       iconName: "Handshake",
       jobReq: "Draft, review, and negotiate enterprise commercial agreements with focus on GTM/Sales transactions",
-      myFit: "Handles the majority of Drata's commercial deal flow today and drove 50%+ of Snappy's 2024 revenue. Negotiated hundreds of MSAs, DPAs, order forms, NDAs, and SaaS subscription agreements across SaaS, cybersecurity, gifting, media, and assessment platforms.",
+      myFit: "Handles the majority of Drata's commercial deal flow today and drove 50%+ of Snappy's 2024 revenue. Negotiated thousands of MSAs, DPAs, NDAs, order forms, and other SaaS subscription agreements across SaaS, cybersecurity, gifting, media, and assessment platforms.",
       tags: ["MSAs", "DPAs", "Order Forms", "Enterprise SaaS"],
     },
     {
