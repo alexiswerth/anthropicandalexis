@@ -24,8 +24,8 @@ describe("WhyAnthropicSection", () => {
   it("renders tags", () => {
     render(<WhyAnthropicSection />);
     expect(screen.getByText("AI Compliance")).toBeInTheDocument();
-    expect(screen.getByText("Privacy")).toBeInTheDocument();
-    expect(screen.getByText("8+ Years")).toBeInTheDocument();
+    expect(screen.getByText("Enterprise SaaS")).toBeInTheDocument();
+    expect(screen.getByText("DataGrail")).toBeInTheDocument();
   });
 
   it("contains no em dashes", () => {
