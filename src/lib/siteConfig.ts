@@ -97,7 +97,7 @@ const siteConfig: SiteConfig = {
         "Negotiated complex enterprise commercial agreements with focus on AI, data privacy, security, and IP, partnering directly with Sales leadership on strategic accounts.",
         "Provided 1:1 legal training to Enterprise AEs to help them navigate complex customer negotiations and accelerate deal close time between pre-contract and closed-won.",
         "Reduced sales request processing time by 30% after leading the design and implementation of an Ironclad-Salesforce workflow integration.",
-        "Managed review and negotiation of $14M+ in annual procurement as Legal's representative on the Procurement Committee.",
+        "Managed review and negotiation of $14M+ in annual vendor and procurement contracts on behalf of Legal as Legal's representative on the Procurement Committee.",
       ],
     },
     {
@@ -170,7 +170,7 @@ const siteConfig: SiteConfig = {
       iconName: "Shield",
       label: "Generalist with Range",
       jobReq: "Roll up your sleeves and pitch in where needed across multi-stakeholder agreements involving technical and policy considerations.",
-      myFit: "Contracts is my anchor, but my career spans IP, procurement ($14M+ annual at Snappy on the Procurement Committee), marketing review, employment, and policy work going back to UFT, NLRB, and EEOC. Low-ego doer who picks up what the team needs.",
+      myFit: "Contracts is my anchor, but my career spans IP, procurement ($14M+ annual vendor contracts at Snappy on the Procurement Committee), marketing review, employment, and policy work going back to UFT, NLRB, and EEOC. Low-ego doer who picks up what the team needs.",
       tags: ["IP", "Procurement", "Marketing Review", "Generalist"],
     },
   ],
