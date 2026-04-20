@@ -169,7 +169,7 @@ const siteConfig: SiteConfig = {
     {
       iconName: "Shield",
       label: "Generalist with Range",
-      jobReq: "Roll up your sleeves and pitch in where needed across multi-stakeholder agreements involving technical and policy considerations.",
+      jobReq: "Roll up your sleeves and pitch in where needed across agreements involving technical and policy considerations.",
       myFit: "This is where I do my best work. I'm a Jane of all Trades and I thrive on it. Being part of a team is what matters most to me: showing up, pitching in wherever I'm needed, and building something together.",
       tags: ["Generalist", "Team Player", "Low Ego", "Versatile"],
     },
