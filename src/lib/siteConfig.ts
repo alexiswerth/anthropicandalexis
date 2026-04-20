@@ -134,7 +134,7 @@ const siteConfig: SiteConfig = {
     },
     {
       id: "cision",
-      company: "Cision",
+      company: "Cision (Brandwatch)",
       subtitle: "Global SaaS Media & PR Platform",
       title: "Commercial & Product Counsel",
       period: "2020 to 2021",
@@ -143,31 +143,11 @@ const siteConfig: SiteConfig = {
         "Partnered with Product on go-to-market launches, embedding privacy and licensing terms into customer-facing offerings.",
       ],
     },
-    {
-      id: "kasirer",
-      company: "Kasirer LLC",
-      subtitle: "Government Relations & Lobbying Firm",
-      title: "Director, Legal & Business Affairs",
-      period: "2019 to 2020",
-      highlights: [
-        "Led legal and business affairs across all client engagements: drafted and negotiated commercial engagement letters, vendor contracts, and partnership agreements.",
-        "Built out the firm's commercial contracting infrastructure and managed all transactional matters for the business.",
-      ],
-    },
-    {
-      id: "uft",
-      company: "United Federation of Teachers",
-      subtitle: "Major NYC Public Sector Union",
-      title: "Counsel",
-      period: "2017 to 2019",
-      highlights: [
-        "Drafted and negotiated commercial agreements supporting the union's operations, including vendor contracts, services agreements, and partnership arrangements.",
-        "Advised on contract interpretation and risk across a broad portfolio of organizational matters.",
-      ],
-    },
   ],
 
   earlierRoles: [
+    "Director, Legal & Business Affairs, Kasirer LLC",
+    "Counsel, United Federation of Teachers",
     "Litigation Associate, Gottlieb & Janey",
     "Law Clerk, EEOC, Administrative Judge's Division",
     "Peggy Browning Fellow, Meyer, Suozzi, English & Klein, P.C.",
