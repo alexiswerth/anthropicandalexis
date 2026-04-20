@@ -123,22 +123,11 @@ const siteConfig: SiteConfig = {
       ],
     },
     {
-      id: "axiom",
-      company: "Axiom",
-      subtitle: "Alternative Legal Services Provider",
-      title: "Fractional Corporate Counsel",
-      period: "2021 to 2022",
-      highlights: [
-        "Embedded with in-house legal teams across multiple SaaS and technology clients to drive commercial deal flow.",
-        "Negotiated SaaS subscription agreements, MSAs, SOWs, NDAs, and vendor agreements on tight commercial timelines.",
-      ],
-    },
-    {
       id: "cision",
-      company: "Cision (Brandwatch)",
+      company: "Brandwatch (now Cision)",
       subtitle: "Global SaaS Media & PR Platform",
       title: "Commercial & Product Counsel",
-      period: "2020 to 2021",
+      period: "2021",
       highlights: [
         "Commercial counsel for global SaaS platform: drafted and negotiated subscription agreements, DPAs, and partnership agreements with enterprise media and communications customers.",
         "Partnered with Product on go-to-market launches, embedding privacy and licensing terms into customer-facing offerings.",
