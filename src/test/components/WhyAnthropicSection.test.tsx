@@ -15,10 +15,18 @@ describe("WhyAnthropicSection", () => {
     expect(screen.getByText("Why I'm Your Commercial Counsel")).toBeInTheDocument();
   });
 
-  it("renders both fit cards", () => {
+  it("renders all four fit cards", () => {
     render(<WhyAnthropicSection />);
-    expect(screen.getAllByText("What Anthropic Needs")).toHaveLength(2);
-    expect(screen.getAllByText("What I Bring")).toHaveLength(2);
+    expect(screen.getAllByText("What Anthropic Needs")).toHaveLength(4);
+    expect(screen.getAllByText("What I Bring")).toHaveLength(4);
+  });
+
+  it("renders fit card labels", () => {
+    render(<WhyAnthropicSection />);
+    expect(screen.getByText("Commercial Deal Flow")).toBeInTheDocument();
+    expect(screen.getByText("GTM Partnership & Velocity")).toBeInTheDocument();
+    expect(screen.getByText("AI, Privacy & Policy Adjacent")).toBeInTheDocument();
+    expect(screen.getByText("Generalist with Range")).toBeInTheDocument();
   });
 
   it("renders tags", () => {
