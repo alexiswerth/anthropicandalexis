@@ -51,7 +51,7 @@ const siteConfig: SiteConfig = {
   name: "Alexis Werth",
   suffix: "Esq.",
   tagline: "Your Next Commercial Counsel, GTM",
-  bio: "Commercial counsel with 10+ years partnering with go-to-market teams to bring deals across the finish line. My career has centered on the work that moves revenue: enterprise SaaS negotiations, thoughtful AI and data privacy terms, and the legal ops infrastructure that helps sales teams move with confidence. At Drata, I lead the majority of commercial deal flow, designed the privacy program end-to-end, and architect AI-powered legal ops workflows that shape how Legal shows up for GTM. At Snappy, my work supported more than half of 2024 revenue and cut sales request time 30% through an Ironclad-Salesforce integration. Across every role, I have built the relationships, contracts, privacy programs, and processes that help businesses grow.",
+  bio: "Commercial counsel with 10+ years partnering with go-to-market teams to bring deals across the finish line. My career has centered on the work that moves revenue: thousands of enterprise SaaS agreements negotiated, thoughtful AI and data privacy terms, and the legal ops infrastructure that helps sales teams move with confidence. At Drata, I lead the majority of commercial deal flow, designed the privacy program end-to-end, and architect AI-powered legal ops workflows that shape how Legal shows up for GTM. At Snappy, my work supported more than half of 2024 revenue and cut sales request time 30% through an Ironclad-Salesforce integration. Across every role, I have built the relationships, contracts, privacy programs, and processes that help businesses grow.",
   email: "awerth13@gmail.com",
   phone: "5163198772",
   phoneDisplay: "516.319.8772",
@@ -78,7 +78,7 @@ const siteConfig: SiteConfig = {
       title: "Senior Corporate Counsel",
       period: "2025 to Present",
       highlights: [
-        "Handles the majority of Drata's commercial deal flow, drafting and negotiating thousands of enterprise customer agreements including MSAs, DPAs, NDAs, order forms, and other SaaS subscription agreements.",
+        "Handles the majority of Drata's commercial deal flow, drafting and negotiating hundreds of enterprise customer agreements including MSAs, DPAs, NDAs, order forms, and other SaaS subscription agreements.",
         "Day-to-day GTM legal partner and second to SVP, Legal in a two-person team: directly supports Sales, Customer Success, and Procurement on deal velocity, escalations, and commercial risk.",
         "Driving a comprehensive revamp of the GTM-Legal process: established elevated negotiation thresholds, built AI-powered legal ops workflows, and evolved playbooks to formalize Legal SLAs.",
         "Designed and implemented Drata's privacy program end-to-end (DataGrail workflows, cookie/pixel governance, AI compliance), embedding the terms commercial customers expect directly into the product.",
