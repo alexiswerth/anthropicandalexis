@@ -59,7 +59,7 @@ const siteConfig: SiteConfig = {
   location: "New York, NY",
   barAdmissions: ["New York", "New Jersey"],
   community: "Counselwell Region Lead (NYC)",
-  githubUrl: "https://github.com/alexiswerth",
+  githubUrl: "https://github.com/alexiswerth/anthropicandalexis",
   linkedinUrl: "https://www.linkedin.com/in/alexis-werth-80496b30/",
   resumePath: "/Alexis_Werth_Resume.pdf",
   ctaLabel: "Why I'm Your Commercial Counsel",
