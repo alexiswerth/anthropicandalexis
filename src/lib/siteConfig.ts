@@ -163,7 +163,7 @@ const siteConfig: SiteConfig = {
       iconName: "Brain",
       label: "AI, Privacy & Policy Adjacent",
       jobReq: "Stay current on legal developments affecting AI; partner with Policy, Safeguards, and Research teams on novel AI governance initiatives.",
-      myFit: "Designed Drata's privacy program end-to-end (DataGrail workflows, cookie/pixel governance, AI compliance). Drata Legal's resident AI architect: identify, stress-test, and deploy AI tools across the legal function. AI and privacy terms sit in every deal I negotiate.",
+      myFit: "Designed Drata's privacy program end-to-end (DataGrail workflows, cookie/pixel governance, AI compliance). Drata Legal's resident AI architect: identify, stress-test, and deploy AI tools across the legal function.",
       tags: ["AI Compliance", "Privacy Program", "DataGrail"],
     },
     {
