@@ -82,7 +82,7 @@ const siteConfig: SiteConfig = {
         "Handles the majority of Drata's commercial deal flow, drafting and negotiating hundreds of enterprise customer agreements including MSAs, DPAs, NDAs, order forms, and other SaaS subscription agreements.",
         "Day-to-day GTM legal partner and second to SVP, Legal in a two-person team: directly supports Sales, Customer Success, and Procurement on deal velocity, escalations, and commercial risk.",
         "Driving a comprehensive revamp of the GTM-Legal process: established elevated negotiation thresholds, built AI-powered legal ops workflows, and evolved playbooks to formalize Legal SLAs.",
-        "Designed and implemented Drata's privacy program end-to-end (DataGrail workflows, cookie/pixel governance, AI compliance), embedding the terms commercial customers expect directly into the product.",
+        "Designed and implemented Drata's privacy program end-to-end (DataGrail workflows, cookie/pixel governance, AI compliance).",
         "Drata Legal's resident AI architect: identifying, stress-testing, and deploying AI tools across the legal function to reshape how commercial work gets done.",
       ],
     },
