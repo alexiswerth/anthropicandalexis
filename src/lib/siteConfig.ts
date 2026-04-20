@@ -52,7 +52,7 @@ const siteConfig: SiteConfig = {
   name: "Alexis Werth",
   suffix: "Esq.",
   tagline: "Your Next Commercial Counsel, GTM",
-  bio: "Commercial counsel with 10+ years partnering with go-to-market teams to bring deals across the finish line. A contracts expert first and foremost: thousands of enterprise SaaS agreements negotiated, with deep adjacent fluency in AI and data privacy, legal ops, IP, procurement, and policy. Across every role, I have built the relationships, contracts, privacy programs, and processes that help businesses grow.",
+  bio: "Commercial counsel with 10+ years of contracts experience partnering with go-to-market teams to bring deals across the finish line. A contracts expert first and foremost: thousands of enterprise SaaS agreements negotiated, with deep adjacent fluency in AI and data privacy, legal ops, IP, procurement, and policy. Across every role, I have built the relationships, contracts, privacy programs, and processes that help businesses grow.",
   email: "awerth13@gmail.com",
   phone: "5163198772",
   phoneDisplay: "516.319.8772",
