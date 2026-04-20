@@ -48,27 +48,30 @@ const WhyAnthropicSection = () => {
           {siteConfig.fitItems.map((fi, i) => {
             const Icon = iconMap[fi.iconName] ?? Shield;
             return (
-              <motion.div key={i} variants={item} className="experience-card flex flex-col justify-between min-h-[320px]">
+              <motion.div key={i} variants={item} className="experience-card flex flex-col justify-between min-h-[340px]">
                 <div>
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="p-2.5 rounded-xl bg-muted-foreground/10 text-muted-foreground shrink-0">
+                    <div className="p-2.5 rounded-xl bg-accent/10 text-accent shrink-0">
                       <Icon className="w-5 h-5" />
                     </div>
-                    <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground font-body">
-                      What Anthropic Needs
+                    <p className="text-sm font-semibold text-accent font-heading leading-tight">
+                      {fi.label}
                     </p>
                   </div>
-                  <p className="text-base font-semibold text-accent font-heading leading-snug mb-5">
+                  <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground font-body mb-2">
+                    What Anthropic Needs
+                  </p>
+                  <p className="text-sm text-foreground/85 font-body leading-relaxed mb-5">
                     {fi.jobReq}
                   </p>
                   <div className="w-full h-px bg-border mb-5" />
-                  <div className="flex items-center gap-2 mb-3">
-                    <CheckCircle2 className="w-4 h-4 text-muted-foreground" />
+                  <div className="flex items-center gap-2 mb-2">
+                    <CheckCircle2 className="w-4 h-4 text-accent" />
                     <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground font-body">
                       What I Bring
                     </p>
                   </div>
-                  <p className="text-sm text-accent/85 font-body leading-relaxed">
+                  <p className="text-sm text-foreground/90 font-body leading-relaxed">
                     {fi.myFit}
                   </p>
                 </div>

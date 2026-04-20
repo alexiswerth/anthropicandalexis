@@ -12,6 +12,7 @@ export interface ExperienceData {
 
 export interface FitItem {
   iconName: string;
+  label: string;
   jobReq: string;
   myFit: string;
   tags: string[];
@@ -51,7 +52,7 @@ const siteConfig: SiteConfig = {
   name: "Alexis Werth",
   suffix: "Esq.",
   tagline: "Your Next Commercial Counsel, GTM",
-  bio: "Commercial counsel with 10+ years partnering with go-to-market teams to bring deals across the finish line. My career has centered on the work that moves revenue: thousands of enterprise SaaS agreements negotiated, thoughtful AI and data privacy terms, and the legal ops infrastructure that helps sales teams move with confidence. At Drata, I lead the majority of commercial deal flow, designed the privacy program end-to-end, and architect AI-powered legal ops workflows that shape how Legal shows up for GTM. At Snappy, my work supported more than half of 2024 revenue and cut sales request time 30% through an Ironclad-Salesforce integration. Across every role, I have built the relationships, contracts, privacy programs, and processes that help businesses grow.",
+  bio: "Commercial counsel with 10+ years partnering with go-to-market teams to bring deals across the finish line. A contracts expert first and foremost: thousands of enterprise SaaS agreements negotiated, with deep adjacent fluency in AI and data privacy, legal ops, IP, procurement, and policy. At Drata, I lead the majority of commercial deal flow, designed the privacy program end-to-end, and architect AI-powered legal ops workflows that shape how Legal shows up for GTM. At Snappy, my work supported more than half of 2024 revenue and cut sales request time 30% through an Ironclad-Salesforce integration. Across every role, I have built the relationships, contracts, privacy programs, and processes that help businesses grow.",
   email: "awerth13@gmail.com",
   phone: "5163198772",
   phoneDisplay: "516.319.8772",
@@ -157,15 +158,31 @@ const siteConfig: SiteConfig = {
   fitItems: [
     {
       iconName: "Handshake",
-      jobReq: "Own enterprise commercial deal flow alongside GTM",
-      myFit: "Lead the majority of Drata's commercial deals today. Closed work supporting 50%+ of Snappy's 2024 revenue.",
+      label: "Commercial Deal Flow",
+      jobReq: "Draft, review, and negotiate commercial agreements with a primary focus on GTM/Sales transactions including enterprise customer contracts.",
+      myFit: "Contracts expert first and foremost. Lead the majority of Drata's commercial deal flow today: hundreds of enterprise customer agreements per year (MSAs, DPAs, NDAs, order forms, SaaS subscriptions). At Snappy, my work directly supported 50%+ of 2024 revenue. Thousands of deals negotiated across my career.",
       tags: ["MSAs", "DPAs", "Order Forms", "Enterprise SaaS"],
     },
     {
+      iconName: "Zap",
+      label: "GTM Partnership & Velocity",
+      jobReq: "Partner closely with Sales and Go-to-Market teams to support deal velocity and provide practical legal guidance.",
+      myFit: "Day-to-day GTM legal partner at Drata, second to SVP Legal in a two-person team. Built the GTM-Legal process from playbooks and SLAs to AI-powered legal ops workflows. Cut sales request time 30% at Snappy via Ironclad-Salesforce integration. 1:1 AE training to accelerate close.",
+      tags: ["Sales Enablement", "Legal Ops", "Ironclad", "Salesforce"],
+    },
+    {
       iconName: "Brain",
-      jobReq: "Pair AI fluency with a real privacy practice",
-      myFit: "Designed Drata's privacy program end-to-end and serve as Legal's AI architect. AI and privacy terms sit in every deal I negotiate.",
-      tags: ["Privacy Program", "AI Compliance", "DataGrail"],
+      label: "AI, Privacy & Policy Adjacent",
+      jobReq: "Stay current on legal developments affecting AI; partner with Policy, Safeguards, and Research teams on novel AI governance initiatives.",
+      myFit: "Designed Drata's privacy program end-to-end (DataGrail workflows, cookie/pixel governance, AI compliance). Drata Legal's resident AI architect: identify, stress-test, and deploy AI tools across the legal function. AI and privacy terms sit in every deal I negotiate.",
+      tags: ["AI Compliance", "Privacy Program", "DataGrail"],
+    },
+    {
+      iconName: "Shield",
+      label: "Generalist with Range",
+      jobReq: "Roll up your sleeves and pitch in where needed across multi-stakeholder agreements involving technical and policy considerations.",
+      myFit: "Contracts is my anchor, but my career spans IP, procurement ($14M+ annual at Snappy on the Procurement Committee), marketing review, employment, and policy work going back to UFT, NLRB, and EEOC. Low-ego doer who picks up what the team needs.",
+      tags: ["IP", "Procurement", "Marketing Review", "Generalist"],
     },
   ],
 
